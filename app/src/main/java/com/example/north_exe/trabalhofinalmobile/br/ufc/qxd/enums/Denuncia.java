@@ -11,4 +11,8 @@ public enum Denuncia {
     Denuncia(int valor) {
         this.valor = valor;
     }
+
+    public int getValor() {
+        return valor;
+    }
 }
